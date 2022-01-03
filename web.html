@@ -3,12 +3,37 @@
     <title>환영합니다.</title>
     <link href="web.css" rel="stylesheet" />
     <script src="web.js" type="text/javascript"></script>
+
+    <style>
+      p {
+        color: orange;
+      }
+
+      #id-test,
+      .class-test {
+        color: blue;
+      }
+
+      #item-list p {
+        color: red;
+      }
+    </style>
   </head>
   <body>
+    <p>색변경</p>
+    <div>연습하기</div>
+    <div id="id-test">연습하기</div>
+    <div class="class-test">연습하기</div>
     <div>연습하기</div>
     <div>연습하기</div>
-    <div>연습하기</div>
-    <div>연습하기</div>
-    <div>연습하기</div>
+
+    <div id="item-list">
+      <p>첫번째 자식1</p>
+      <p>첫번째 자식2</p>
+      <div>
+        <p>두번째자식 1</p>
+        <p>두번째자식 2</p>
+      </div>
+    </div>
   </body>
 </html>
